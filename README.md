@@ -8,9 +8,15 @@ Software Engineer
 
 A phone-first app for turning handwritten score-card photos into reviewed tournament results. Combines AI-assisted reading, cross-card validation, and focused correction tools. Source private.
 
+[![Cribbage tournament review with demo score cards](assets/cribbage-overview.png)](projects/cribbage.md)
+
 ### [Multiplayer Poker](projects/poker.md)
 
 A real-time poker app built with Elixir/Phoenix, PostgreSQL, and Expo/React Native. Browser staging uses synthetic data; mobile clients share the same backend. Source private.
+
+[![Poker lobby with demo tournaments](assets/poker-lobby.png)](projects/poker.md)
+
+Screenshots show the actual application interfaces, captured locally with synthetic demo data.
 
 ### [PaneFleet](https://github.com/jmac4909/PaneFleet)
 
