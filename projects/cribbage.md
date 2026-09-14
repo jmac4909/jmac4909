@@ -2,9 +2,9 @@
 
 A phone-first web app for reviewing handwritten tournament score cards.
 
-![Tournament review workspace with demo score cards](../assets/cribbage-overview.png)
+![Official standings calculated by the application for a synthetic six-player tournament](../assets/cribbage-results.png)
 
-Actual application UI, captured locally with synthetic score cards—not private tournament photos or an OCR accuracy demonstration.
+The actual results panel after a synthetic tournament passes the application's validation checks. This local fixture uses seeded rows; no OCR model was run for the capture, and no private tournament photos are published.
 
 ## The problem
 
@@ -21,7 +21,7 @@ The correction interface brings the relevant cards together, keeps the original 
 
 ![A linked-game review question with both source cards and an explicit confirmation](../assets/cribbage-review.png)
 
-One focused question, both source cards, and an explicit confirmation. Dependent checks are recomputed after the decision.
+One focused question, both source cards, and an explicit confirmation. Dependent checks are recomputed after the decision. This separate review fixture uses printed demo cards; the screenshots illustrate the workflow, not OCR accuracy or a measured before-and-after improvement.
 
 ## Engineering
 

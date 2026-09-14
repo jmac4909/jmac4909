@@ -10,9 +10,9 @@ Actual application UI, captured locally with synthetic players, balances, and ga
 
 The app connects players through matchmaking and live tables, with tournament progression and account state managed by the server. The browser client is an Expo web build; the backend uses Elixir/Phoenix and PostgreSQL.
 
-<img src="../assets/poker-table-mobile.png" alt="Poker table at phone width, showing community cards, hole cards, and fold, call, and raise controls" width="320">
+<img src="../assets/poker-result-mobile.png" alt="Completed entry showing final stack, provisional rank, projected payout, and return-to-play controls" width="320">
 
-The same table screen at phone width in the browser; this is not a native-device capture.
+The actual entry-result sheet, captured at phone width in the browser. The entry's stack is final, while rank and projected payout remain provisional until the event closes. This is a demo fixture, not a native-device capture or a real payout.
 
 ## Engineering
 
