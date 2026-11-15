@@ -4,9 +4,19 @@ Software Engineer
 
 ## Selected projects
 
-[JM Ops Agent · Java](https://github.com/jmac4909/jm-ops-agent) · [PaneFleet · Node.js](https://github.com/jmac4909/PaneFleet) · [Kronos · TypeScript](https://github.com/jmac4909/Kronos)
+[Event Review · Python](https://github.com/jmac4909/event-review-agent) · [JM Ops Agent · Java](https://github.com/jmac4909/jm-ops-agent) · [PaneFleet · Node.js](https://github.com/jmac4909/PaneFleet) · [Kronos · TypeScript](https://github.com/jmac4909/Kronos)
 
-Source, architecture notes, and local setup are linked below. Screenshots show real application interfaces with demo data; select an image for more views.
+Source, architecture notes, and local setup are linked below. Screenshots show real application interfaces with demo data; select an image to explore a project.
+
+### [Event Review](https://github.com/jmac4909/event-review-agent)
+
+A Python/FastAPI, PostgreSQL, and React prototype for reviewing safety alerts. A custom agent loop combines event evidence, scoped retrieval, and supervisor-approved guidance. Correcting one event does not automatically create a rule for future events. Regional row-level security, expiring work claims, and bounded retries keep data and worker ownership explicit.
+
+<a href="https://jmac.page/#event-review"><img src="https://jmac.page/assets/event-review.png" alt="Event Review dashboard with synthetic regional alerts, a Mock agent assessment, and supervisor review controls" width="640"></a>
+
+[Architecture](https://github.com/jmac4909/event-review-agent/blob/main/docs/architecture.md) · [Feedback walkthrough](https://github.com/jmac4909/event-review-agent/blob/main/docs/walkthrough.md) · [Verification](https://github.com/jmac4909/event-review-agent/blob/main/docs/verification.md) · [Run locally](https://github.com/jmac4909/event-review-agent#run)
+
+Uses synthetic detector metadata, not camera footage. Mock runs offline after setup; the repository also documents live Claude evaluations.
 
 ### [JM Ops Agent](https://github.com/jmac4909/jm-ops-agent)
 
