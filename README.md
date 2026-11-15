@@ -14,7 +14,7 @@ A Python/FastAPI, PostgreSQL, and React prototype for reviewing safety alerts. A
 
 <a href="https://jmac.page/#event-review"><img src="https://jmac.page/assets/event-review.png" alt="Event Review dashboard with synthetic regional alerts, a Mock agent assessment, and supervisor review controls" width="640"></a>
 
-[Architecture](https://github.com/jmac4909/event-review-agent/blob/main/docs/architecture.md) · [Feedback walkthrough](https://github.com/jmac4909/event-review-agent/blob/main/docs/walkthrough.md) · [Verification](https://github.com/jmac4909/event-review-agent/blob/main/docs/verification.md) · [Run locally](https://github.com/jmac4909/event-review-agent#run)
+[Watch demo](https://www.loom.com/share/253ef7d8a36a49eba6e7cbc559d3cd96) · [Architecture](https://github.com/jmac4909/event-review-agent/blob/main/docs/architecture.md) · [Feedback walkthrough](https://github.com/jmac4909/event-review-agent/blob/main/docs/walkthrough.md) · [Verification](https://github.com/jmac4909/event-review-agent/blob/main/docs/verification.md) · [Run locally](https://github.com/jmac4909/event-review-agent#run)
 
 Uses synthetic detector metadata, not camera footage. Mock runs offline after setup; the repository also documents live Claude evaluations.
 
